@@ -24,8 +24,8 @@
             app:layout_constraintEnd_toStartOf="@id/tv_weather_name"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@android:color/holo_blue_light"
-            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+            android:background="@android:color/holo_blue_light"
+            tools:srcCompat="@drawable/ic_launcher_foreground" />
 
         <TextView
             android:id="@+id/tv_weather_name"
@@ -36,7 +36,7 @@
             android:textStyle="bold"
             android:ellipsize="end"
             android:maxLines="1"
-            android:textColor="@color/material_dynamic_tertiary20"
+            android:textColor="@color/black"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/img_view_item"
             app:layout_constraintTop_toTopOf="parent"
