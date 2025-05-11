@@ -38,12 +38,12 @@ public class Repository {
         return sharedPrefManagerManager.readString(key);
     }
 
-    public HashSet<String> getLocalizations() {
-        HashSet<String> localizations = new HashSet<>();
-        localizations.add("-8.05428,-34.8813");
-        localizations.add("-9.39416,-40.5096");
-        localizations.add("-8.284547,-35.969863");
-        localizations.add("-3.10719,-60.0261");
+    public HashMap<String, String> getLocalizations() {
+        HashMap<String, String> localizations = new HashMap<>();
+        localizations.put("1", "-8.05428,-34.8813");
+        localizations.put("2", "-9.39416,-40.5096");
+        localizations.put("3", "-8.284547,-35.969863");
+        localizations.put("4", "-3.10719,-60.0261");
         return localizations;
     }
 }

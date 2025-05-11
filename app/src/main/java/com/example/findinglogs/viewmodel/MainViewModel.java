@@ -47,10 +47,10 @@ public class MainViewModel extends AndroidViewModel {
 
     private void fetchAllForecasts() {
         if (Logger.ISLOGABLE) Logger.d(TAG, "fetchAllForecasts()");
-        HashSet<String> localizations = mRepository.getLocalizations();
+        HashMap<String, String> localizations = mRepository.getLocalizations();
         List<Weather> updatedList = new ArrayList<>();
 
-        for (String latlon : localizations) {
+        for (String latlon : localizations.values()) {
             mRepository.retrieveForecast(latlon, new WeatherCallback() {
                 @Override
                 public void onSuccess(Weather result) {
