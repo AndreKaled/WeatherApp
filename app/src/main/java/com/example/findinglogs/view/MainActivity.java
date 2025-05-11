@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
                 weathers -> adapter.updateWeathers(weathers));
 
         fetchButton.setOnClickListener(v ->
-                Toast.makeText(MainActivity.this, "Not Implemenented yet",
-                Toast.LENGTH_SHORT).show());
+                mainViewModel.fetchAllForecasts());
     }
 }
