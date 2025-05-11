@@ -9,6 +9,8 @@ We use predefined latitude and longitude coordinates from various cities to fetc
 - 💧 Humidity
 - 🌬️ Pressure
 
+<img a="weather_app.gif" alt="demo app" height="500">
+
 ---
 
 ## 🚧 Current Status & To-Do List
