@@ -36,7 +36,7 @@
             android:textStyle="bold"
             android:ellipsize="end"
             android:maxLines="1"
-            android:textColor="@color/material_dynamic_tertiary20"
+            android:textColor="@color/purple"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/img_view_item"
             app:layout_constraintTop_toTopOf="parent"
